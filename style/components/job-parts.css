@@ -1,0 +1,57 @@
+.job-parts {
+    background-color: #f5f5f5;
+    padding-top: 120px;
+}
+
+.parts {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+    .part {
+        
+    }
+        .part-line {
+            position: relative;
+       }
+       .line {
+
+       }
+        .part-line__cipher {
+            border-radius: 50%;
+            background: #ff681d;;
+            padding: 10px 15px;
+            font-size: 16px;
+            line-height: 1.35;
+            box-sizing: border-box;
+            color: #fff;
+            border: 1px solid #fff;
+        }
+        .part-title {
+            margin-top: 40px;
+            font-size: 20px;
+            line-height: 1.35;
+            font-weight: 600;
+            color: #000;
+        }
+        .part-desc {
+            margin-top: 16px;
+            font-size: 15px;
+            line-height: 1.55;
+            font-weight: 300;
+            color: #000;
+        }
+
+@media screen and (max-width: 750px) {
+    .parts {
+        flex-direction: column;
+    }
+    .part {
+        padding-left: 30px;
+        padding-top: 30px;
+    }
+    .part-line {
+        position: absolute;
+        z-index: -1;
+    }
+}

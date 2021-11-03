@@ -1,0 +1,78 @@
+.qa {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+    .qa-title {
+        font-size: 42px;
+        line-height: 1.23;
+        font-family: 'Open Sans',Arial,sans-serif;
+        font-weight: 600;
+        color: #000;
+        text-align: center;
+    }
+    .qa-cont {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }   
+        .qa-div {
+
+        }
+        .que {
+            border: 1px solid #0000ff;
+            position: relative;
+            padding: 40px;
+            border-radius: 9px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            width: calc(100%/1.3);
+        }
+        .div-margin-15 {
+            margin-top: 15px;
+        }
+        .div-margin-60 {
+            margin-top: 60px;
+        }
+            .que-name {
+                
+            }
+                .que-name__name {
+                    width: 120px;
+                    color: #999;
+                    padding-right: 15px;
+                    font-size: 18px;
+                    line-height: 1.55;
+                    font-family: 'Open Sans',Arial,sans-serif;
+                    font-weight: 300;
+                    margin-bottom: 15px;
+                }
+                .que-name__que {
+                    font-weight: 700;
+                    font-size: 18px;
+                    line-height: 1.55;
+                    font-family: 'Open Sans',Arial,sans-serif;
+                    color: #000;
+                    margin-bottom: 15px;
+                }
+            .que-text {
+                margin-top: 10px;
+            }
+                .que-text__name {
+                    width: 120px;
+                    color: #999;
+                    padding-right: 15px;
+                    font-size: 18px;
+                    line-height: 1.55;
+                    font-family: 'Open Sans',Arial,sans-serif;
+                    font-weight: 300;
+                }
+                .que-text__ans {
+                    font-size: 18px;
+                    line-height: 1.55;
+                    font-family: 'Open Sans',Arial,sans-serif;
+                    font-weight: 300;
+                    color: #000;
+                }

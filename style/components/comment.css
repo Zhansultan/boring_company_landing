@@ -1,0 +1,94 @@
+.comment {
+    background-color: #f5f5f5;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+    .title {
+        margin-bottom: 40px;
+        font-size: 42px;
+        line-height: 1.23;
+        font-family: 'Open Sans',Arial,sans-serif;
+        font-weight: 600;
+        color: #000;
+        text-align: center;
+    }
+    .first-line {
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        flex-wrap: wrap;
+        margin-top: 90px;
+    }
+        .comment-text {
+            width: calc(100%/2.5);
+            transition: ease-out .2s;
+        }
+        .comment-text:hover {
+            box-sizing: border-box;
+            transform: scale(1.06);
+        }
+        .left-comment {
+            margin-right: 60px;
+        }
+        .comment-desc {
+            font-size: 18px;
+            line-height: 1.55;
+            font-family: 'Open Sans',Arial,sans-serif;
+            font-weight: 300;
+            color: #000;
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 10px;
+        }
+        .comment-autor {
+            margin-top: 30px;
+        }
+            .comment-autor__name {
+                margin-left: 35px;
+                font-size: 16px;
+                line-height: 1.35;
+                font-family: 'Open Sans',Arial,sans-serif;
+                font-weight: 600;
+                color: #000;
+                display: block;
+            }
+            .comment-autor__job {
+                margin-left: 35px;
+                color: #666;
+                font-size: 14px;
+                line-height: 1.55;
+                font-family: 'Open Sans',Arial,sans-serif;
+                font-weight: 300;
+                display: block;
+            }
+
+    .second-line {
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        flex-wrap: wrap;
+        margin-top: 50px;
+    }
+    .line {
+        width: 0;
+        height: 0;
+        margin-left: 35px;
+        border: 12px solid;
+        border-color: #fff transparent transparent #fff;
+    }
+
+@media screen and (max-width: 750px) {
+    .first-line {
+        flex-direction: column;
+    }
+    .left-comment {
+        margin-right: 0px;
+    }
+    .comment-text {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .second-line {
+        margin-top: 0px;
+    }
+}
